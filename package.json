@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "push": "git add . && git commit -m 'commit' && git push origin main"
+    "push": "git add . && git commit -m 'commit' && git push origin master"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0",
