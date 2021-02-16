@@ -3,7 +3,8 @@ import Note from '../../../models/Note'
 
 dbConnect()
 
-export default async (req, res) => {
+// export default async (req, res) => {
+module.exports =  async (req, res) => {
   const { method } = req
 
   switch (method) {
